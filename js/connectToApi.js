@@ -5,7 +5,7 @@ async function listVideos() {
     return convertedConnection; 
 }
 
-export const connectToApi {
+export const connectToApi = {
     listVideos
 
 }
