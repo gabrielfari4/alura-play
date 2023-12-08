@@ -2,7 +2,7 @@ import { connectToApi } from "./connectToApi.js";
 
 const list = document.querySelector('[data-list]');
 
-function buildCard(titulo, descricao, url, imagem) {
+export default function buildCard(titulo, descricao, url, imagem) {
     const video = document.createElement('li');
     video.className = 'videos__item';
     video.innerHTML = `<iframe width="100%" height="72%" src="${url}"
@@ -19,8 +19,10 @@ function buildCard(titulo, descricao, url, imagem) {
 }
 
 async function listVideo() {
-    const listApi = await connectToApi.listVideos();
-    listApi.forEach(elemento => list.appendChild(buildCard(elemento.titulo, elemento.descricao, elemento.url, elemento.imagem)));
+    
+        const listApi = await connectToApi.listVideos();
+        listApi.forEach(elemento => list.appendChild(buildCard(elemento.titulo, elemento.descricao, elemento.url, elemento.imagem)));
+    
 }
 
 listVideo();
