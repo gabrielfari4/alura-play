@@ -13,6 +13,10 @@ async function searchVideos() {
     
     console.log(searchData)
     search.forEach(element => list.appendChild(buildCard(element.titulo, element.descricao, element.url, element.imagem)))
+
+    if (search.length == 0) {
+        list.innerHTML = `<h2 class="mensagem__titulo">A busca não encontrou resultados.</h2>`;
+    }
 }
 
 const searchButton = document.querySelector("[data-search-button]");
