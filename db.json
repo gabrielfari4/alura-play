@@ -83,6 +83,27 @@
       "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 12
+    },
+    {
+      "titulo": "Guia de carreira Front-end",
+      "descricao": "57 mil visualizações",
+      "url": "https://www.youtube.com/embed/fpth65ts3cw?si=btUlieRszm4PwYXO",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 13
+    },
+    {
+      "titulo": "Aprenda tudo sobre Promises de JavaScript",
+      "descricao": "3 mil visualizações",
+      "url": "https://www.youtube.com/embed/87gWRVGRZ5o?si=X4JJ8dpoYTjMU-uV",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 14
+    },
+    {
+      "titulo": "JS Assíncrono: Entenda de vez Callbacks, Promises e Async/Await",
+      "descricao": "1 mil visualizações",
+      "url": "https://www.youtube.com/embed/7Bs4-rqbCQc?si=8E0iR0_1-t5lplY2",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": 15
     }
   ]
 }
